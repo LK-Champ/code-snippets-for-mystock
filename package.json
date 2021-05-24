@@ -3,8 +3,8 @@
     "displayName": "Code Snippets for MyStock",
     "description": "Snippets MyStock Code",
     "repository": "https://github.com/LK-Champ/code-snippets-for-mystock",
-    "icon": "images/logo.jpeg",
-    "version": "0.0.3",
+    "icon": "images/logo.png",
+    "version": "0.0.4",
     "publisher": "leihehl",
     "engines": {
         "vscode": "^1.0.0"
