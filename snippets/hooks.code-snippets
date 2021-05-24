@@ -1,0 +1,48 @@
+{
+  "MyStock: React hooks state": {
+		"prefix": "state", 
+		"body": [ 
+      "const [state, setState] = React.useState();"
+		],
+		"description": "MyStock: 快速生成一个 hook 状态"
+	},
+  "MyStock: React hooks state loading": {
+		"prefix": "loading", 
+		"body": [ 
+      "const [loading, setLoading] = React.useState(false);"
+		],
+		"description": "MyStock: 快速生成一个 loading hook 状态"
+	},
+  "MyStock: React hooks state firstRender": {
+		"prefix": "firstRender", 
+		"body": [ 
+      "const [firstRender, setFirstRender] = React.useState(true);"
+		],
+		"description": "MyStock: 快速生成一个 firstRender hook 状态"
+	},
+  "MyStock: React hooks state loadFailed": {
+		"prefix": "loadFailed", 
+		"body": [ 
+      "const [loadFailed, setLoadFailed] = React.useState(true);"
+		],
+		"description": "MyStock: 快速生成一个 loadFailed hook 状态"
+	},
+  "MyStock: React hooks state fll": {
+		"prefix": "fll", 
+		"body": [
+      "const [firstRender, setFirstRender] = React.useState(true);", 
+      "const [loadFailed, setLoadFailed] = React.useState(true);",
+      "const [loading, setLoading] = React.useState(false);",
+		],
+		"description": "MyStock: 快速生成 firstRender loadFailed loading 三个hook 状态"
+	},
+	"MyStock: React hooks state quit": {
+		"prefix": "quit", 
+		"body": [
+			"let promptExecuted = false;",
+      "const [quitPath, setQuitPath] = React.useState('');",
+  		"const [quitComfirmed, setQuitComfirmed] = React.useState(false);",
+		],
+		"description": "MyStock: 快速生成 quitPath quitComfirmed 两个hook 状态"
+	},
+}

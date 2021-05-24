@@ -1,0 +1,58 @@
+{
+  "MyStock: api-get": {
+    "prefix": "api.get",
+    "body": [
+      "/**",
+      " * 获取",
+      " * @api-url xxx",
+      " */",
+      "export const $1 = (params?: any) => {",
+      "  const apiUrl = '$2';",
+      "  return request.get(apiUrl, { params });",
+      "};"
+    ],
+    "description": "MyStock: api get code snippets"
+  },
+  "MyStock: api-post": {
+    "prefix": "api.post",
+    "body": [
+      "/**",
+      " * 提交",
+      " * @api-url xxx",
+      " */",
+      "export const $1 = (params?: any) => {",
+      "  const apiUrl = '$2';",
+      "  return request.post(url, { ...params });",
+      "};"
+    ],
+    "description": "MyStock: api post code snippets"
+  },
+  "MyStock: api-delete": {
+    "prefix": "api.delete",
+    "body": [
+      "/**",
+      " * 删除",
+      " * @api-url xxx",
+      " */",
+      "export const $1 = (params?: any) => {",
+      "  const apiUrl = '$2';",
+      "  return request.delete(url, { data: params });",
+      "};"
+    ],
+    "description": "MyStock: api delete code snippets"
+  },
+  "MyStock: api-put": {
+    "prefix": "api.put",
+    "body": [
+      "/**",
+      " * put数据",
+      " * @api-url xxx",
+      " */",
+      "export const $1 = (params?: any) => {",
+      "  const apiUrl = '$2';",
+      "  return request.put(apiUrl, { ...params });",
+      "};"
+    ],
+    "description": "MyStock: api put code snippets"
+  },
+}
